@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi kasus 1</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .container {width: 600px; margin: 40px
+             auto; background: lightgrey;
+            padding: 20px;}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="gambar"></div>
+    </div>
+
+    <script>
+        let gambar = new Image(300, 300);
+        gambar.src = 'data.jpeg.webp'
+        x = document.getElementById("gambar");
+        x.append(gambar);
+    </script>
+    
+</body>
+</html>
